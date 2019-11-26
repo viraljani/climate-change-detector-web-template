@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body,html{
+    margin: 0; padding: 0;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.section1{ 
+    background:linear-gradient(rgba(255, 255 ,255 , .7), rgba(255, 255 ,255 , .7)), url("./../img/ccd-bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section2{
+    color: #ffffff !important;
+    background: rgba(43, 58, 87, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-control{
+    color: #ffffff !important;
+    background-color: transparent !important;
+    border-width: 0 0 1px 0 !important;
+    border-radius: 0 !important;
+    border-color: #ffffff;  
+}
+input[type="text"].form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ffffff;
+  }
+.input-group-text1{
+    color: #ffffff !important;
+    background-color: transparent !important;
+    border-width: 0 0 1px 0 !important;
+    border-radius: 0 !important;
+    border-color: #ffffff;
+}

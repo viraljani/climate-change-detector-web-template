@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Climate Change Detector</title>
+		<link type="image/x-icon" rel="shortcut icon" href="img/climate-change-detector-logo-only.png">
+		<link type="text/css" rel="stylesheet" href="css/custom.css">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="css/fullpage.css">
+		<link type="text/css" rel="stylesheet" href="css/all.min.css">
+		<link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css">
+		<!-- <link rel="stylesheet" href="css/"> -->
+	</head>
+	<body>
+		<nav class="navbar navbar-light bg-white fixed-top">
+			<a class="navbar-brand" href="#">
+				<img src="img/climate-change-detector-logo-only.png" height="30" class="d-inline-block align-top" alt="Logo">
+				Climate Change Detector
+			</a>
+		</nav>
+		<div id="fullpage">
+			<div class="section section1">
+				<div class="container-fluid text-center">
+					<img src="img/climate-change-detector-logo.png" alt="Logo" class="img-fluid">
+				</div>
+			</div>
+			<div class="section section2">
+				<div class="container text-center">
+					<div class="heading">
+						<h1 class="mb-5">Search for any image</h1>
+						<p>Search for any image you would like to view. You can view the list of related images which you can compare, analyze and sort chronologically.</p>
+					</div>
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" id="tags">
+						<div class="input-group-append">
+							<span class="input-group-text input-group-text1" id="basic-addon2">
+								<i class="fas fa-search"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="container text-center section3">
+					<div class="input-group mb-3">
+						<div class="custom-file">
+							<input type="file" class="custom-file-input" id="inputGroupFile02">
+							<label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
+						</div>
+						<div class="input-group-append">
+							<span class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/fullpage.js"></script>
+		<script type="text/javascript" src="js/all.min.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+		<script>
+			new fullpage('#fullpage', {
+				//options here
+				autoScrolling:true,
+				scrollHorizontally: true
+			});
+		</script>
+	</body>
+</html>
